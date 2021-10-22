@@ -23,8 +23,8 @@ public class ResponseHeaderServlet extends HttpServlet {
         response.setHeader("my-header", "hello");
 
         //[Header 편의 메서드]
-//        content(response);
-//        cookie(response);
+        content(response);
+        cookie(response);
         redirect(response);
 
         //[message body]
